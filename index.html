@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>
+        ListFlix
+    </title>
+
+        <body>
+
+            <div id="cabesa">
+             ListFlix
+            </div>
+            
+            
+<table>
+<tr>
+    <td>
+        <table class="list" id="listinha">
+            <thead>
+                <tr>
+                    <th>Nomes</th>
+                    <th>Series</th>
+                    <th>Estado</th>
+                    <th>Opções</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+
+            </tbody>
+
+        </table>
+    </td>
+    <td>
+        <form onsubmit="event.preventDefault();formarnegoço();">
+            <div>
+            <label> Qual teu nome? </label> <label class="validation-error limpaerronome" id="nomeErro"> Preencha todos os campos!</label>
+            <input id="nome" type="text" name="nome" placeholder="Nome">
+            </div>
+            <div>
+                <label> Qual a serie? </label> <label class="validation-error limpaerroserie" id="serieErro"> Preencha todos os campos!</label>
+                <input id="serie" type="text" name="serie" placeholder="Série">
+                </div>
+                <div>
+                    <label> Já assistiu? </label> <label class="validation-error limpaerropergunta" id="perguntaErro"> Preencha todos os campos!</label>
+                    <input id="pergunta" type="text" name="pergunta" placeholder="Estado">
+                    </div>
+                    <div class="form-action-buttons" >
+
+                        <input id=butaozinhodopapai type="submit" value="Enviar">
+
+                    </div>
+        </form>
+    </td>
+    
+</tr>
+</table>
+
+            <script src="script.js"></script>
+        </body>
+
+
+        
+        <div id="pesinho">
+            ©Todos os direitos resevados a Gui01, Rockety e Luvas
+        </div>
+    </head>
+
+
+</html>
